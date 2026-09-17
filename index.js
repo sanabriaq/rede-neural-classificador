@@ -123,12 +123,12 @@ const pessoa = { nome: 'zé', idade: 28, cor: 'verde', localizacao: "Curitiba" }
 const pessoaTensorNormalizado = [ // vetor de entrada para a nova pessoa
     [
         0.2, //idade normalizada
-        0, // cor azul
+        1, // cor azul
         0, // cor vermelho
         1,  // cor verde
-        0, // Localização São Paulo
-        0, // Localização Rio
-        1 //Localização Coritiba
+        1, // Localização São Paulo
+        1, // Localização Rio
+        0 //Localização Coritiba
     ]
 ]
 
